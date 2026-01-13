@@ -1,0 +1,15 @@
+[book]
+title = "Synarion Engine"
+authors = ["Pierrick Fonquerne"]
+language = "en"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/pierrick-fonquerne/synarion-engine"
+edit-url-template = "https://github.com/pierrick-fonquerne/synarion-engine/edit/master/docs/{path}"
