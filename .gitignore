@@ -1,7 +1,6 @@
 # Rust
 /target/
 **/*.rs.bk
-Cargo.lock
 
 # IDE
 .idea/
@@ -29,3 +28,6 @@ Thumbs.db
 # Local configuration
 .env
 .env.local
+
+# Claude Code
+.claude/
