@@ -1,0 +1,15 @@
+[package]
+name = "example_textured_cube"
+description = "Textured Cube - Basic 3D rendering with textures"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "textured_cube"
+path = "src/main.rs"
+
+[dependencies]
+synarion_runtime.workspace = true
+log.workspace = true
+env_logger.workspace = true

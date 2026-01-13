@@ -1,0 +1,15 @@
+[package]
+name = "example_pbr_materials"
+description = "PBR Materials - Physically based rendering"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "pbr_materials"
+path = "src/main.rs"
+
+[dependencies]
+synarion_runtime.workspace = true
+log.workspace = true
+env_logger.workspace = true

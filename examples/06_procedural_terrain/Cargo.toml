@@ -1,0 +1,15 @@
+[package]
+name = "example_procedural_terrain"
+description = "Procedural Terrain - Infinite terrain generation"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "procedural_terrain"
+path = "src/main.rs"
+
+[dependencies]
+synarion_runtime.workspace = true
+log.workspace = true
+env_logger.workspace = true

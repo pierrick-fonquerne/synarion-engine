@@ -1,0 +1,16 @@
+[package]
+name = "example_multiplayer_demo"
+description = "Multiplayer Demo - Basic networking"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "multiplayer_demo"
+path = "src/main.rs"
+
+[dependencies]
+synarion_runtime.workspace = true
+tokio.workspace = true
+log.workspace = true
+env_logger.workspace = true

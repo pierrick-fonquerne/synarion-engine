@@ -1,0 +1,15 @@
+[package]
+name = "example_skeletal_animation"
+description = "Skeletal Animation - Character animation demo"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "skeletal_animation"
+path = "src/main.rs"
+
+[dependencies]
+synarion_runtime.workspace = true
+log.workspace = true
+env_logger.workspace = true

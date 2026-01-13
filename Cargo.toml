@@ -1,0 +1,169 @@
+[workspace]
+resolver = "2"
+members = [
+    "engine/crates/*",
+    "editor/crates/*",
+    "tools/crates/*",
+    "examples/*",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/pierrick-fonquerne/synarion-engine"
+authors = ["Pierrick Fonquerne <pierrick.fonquerne@nubster.com>"]
+rust-version = "1.85"
+
+[workspace.dependencies]
+# Internal crates - Engine foundations
+syn_core = { path = "engine/crates/syn_core" }
+syn_math = { path = "engine/crates/syn_math" }
+syn_collections = { path = "engine/crates/syn_collections" }
+syn_memory = { path = "engine/crates/syn_memory" }
+
+# Internal crates - Platform
+syn_platform = { path = "engine/crates/syn_platform" }
+syn_input = { path = "engine/crates/syn_input" }
+syn_tasks = { path = "engine/crates/syn_tasks" }
+syn_filesystem = { path = "engine/crates/syn_filesystem" }
+
+# Internal crates - Assets
+syn_assets = { path = "engine/crates/syn_assets" }
+syn_streaming = { path = "engine/crates/syn_streaming" }
+
+# Internal crates - Rendering
+syn_gpu = { path = "engine/crates/syn_gpu" }
+syn_vulkan = { path = "engine/crates/syn_vulkan" }
+syn_shaders = { path = "engine/crates/syn_shaders" }
+syn_renderer = { path = "engine/crates/syn_renderer" }
+
+# Internal crates - Game systems
+syn_ecs = { path = "engine/crates/syn_ecs" }
+syn_scene = { path = "engine/crates/syn_scene" }
+syn_physics = { path = "engine/crates/syn_physics" }
+syn_animation = { path = "engine/crates/syn_animation" }
+syn_audio = { path = "engine/crates/syn_audio" }
+syn_particles = { path = "engine/crates/syn_particles" }
+
+# Internal crates - AI & Gameplay
+syn_ai = { path = "engine/crates/syn_ai" }
+syn_navigation = { path = "engine/crates/syn_navigation" }
+syn_dialogue = { path = "engine/crates/syn_dialogue" }
+syn_quests = { path = "engine/crates/syn_quests" }
+syn_inventory = { path = "engine/crates/syn_inventory" }
+
+# Internal crates - Networking
+syn_net_core = { path = "engine/crates/syn_net_core" }
+syn_net_client = { path = "engine/crates/syn_net_client" }
+syn_net_server = { path = "engine/crates/syn_net_server" }
+syn_replication = { path = "engine/crates/syn_replication" }
+
+# Internal crates - UI
+syn_ui = { path = "engine/crates/syn_ui" }
+syn_ui_core = { path = "engine/crates/syn_ui_core" }
+syn_ui_widgets = { path = "engine/crates/syn_ui_widgets" }
+
+# Internal crates - Scripting
+syn_scripting = { path = "engine/crates/syn_scripting" }
+syn_lua = { path = "engine/crates/syn_lua" }
+
+# Internal crates - Procedural
+syn_procgen = { path = "engine/crates/syn_procgen" }
+syn_terrain = { path = "engine/crates/syn_terrain" }
+syn_vegetation = { path = "engine/crates/syn_vegetation" }
+
+# Internal crates - Integration
+syn_app = { path = "engine/crates/syn_app" }
+synarion_runtime = { path = "engine/crates/synarion_runtime" }
+
+# Internal crates - Editor
+syn_editor_core = { path = "editor/crates/syn_editor_core" }
+syn_editor_ui = { path = "editor/crates/syn_editor_ui" }
+syn_editor_widgets = { path = "editor/crates/syn_editor_widgets" }
+syn_viewport = { path = "editor/crates/syn_viewport" }
+syn_hierarchy = { path = "editor/crates/syn_hierarchy" }
+syn_inspector = { path = "editor/crates/syn_inspector" }
+syn_asset_browser = { path = "editor/crates/syn_asset_browser" }
+syn_console = { path = "editor/crates/syn_console" }
+syn_profiler = { path = "editor/crates/syn_profiler" }
+syn_material_editor = { path = "editor/crates/syn_material_editor" }
+syn_particle_editor = { path = "editor/crates/syn_particle_editor" }
+syn_animation_editor = { path = "editor/crates/syn_animation_editor" }
+syn_terrain_editor = { path = "editor/crates/syn_terrain_editor" }
+syn_prefab_editor = { path = "editor/crates/syn_prefab_editor" }
+syn_dialogue_editor = { path = "editor/crates/syn_dialogue_editor" }
+syn_quest_editor = { path = "editor/crates/syn_quest_editor" }
+syn_blueprint_editor = { path = "editor/crates/syn_blueprint_editor" }
+syn_version_control = { path = "editor/crates/syn_version_control" }
+syn_team_sync = { path = "editor/crates/syn_team_sync" }
+
+# Internal crates - Tools
+syn_asset_compiler = { path = "tools/crates/syn_asset_compiler" }
+syn_texture_processor = { path = "tools/crates/syn_texture_processor" }
+syn_mesh_processor = { path = "tools/crates/syn_mesh_processor" }
+syn_shader_compiler = { path = "tools/crates/syn_shader_compiler" }
+syn_audio_processor = { path = "tools/crates/syn_audio_processor" }
+syn_import_gltf = { path = "tools/crates/syn_import_gltf" }
+syn_import_fbx = { path = "tools/crates/syn_import_fbx" }
+syn_import_blend = { path = "tools/crates/syn_import_blend" }
+syn_packager = { path = "tools/crates/syn_packager" }
+syn_localization = { path = "tools/crates/syn_localization" }
+
+# External dependencies - Vulkan
+ash = "0.38"
+ash-window = "0.13"
+
+# External dependencies - Windowing
+winit = "0.30"
+raw-window-handle = "0.6"
+
+# External dependencies - Math
+glam = { version = "0.29", features = ["bytemuck"] }
+bytemuck = { version = "1.21", features = ["derive"] }
+
+# External dependencies - Logging
+log = "0.4"
+env_logger = "0.11"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+
+# External dependencies - Error handling
+anyhow = "1.0"
+thiserror = "2.0"
+
+# External dependencies - Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+ron = "0.8"
+toml = "0.8"
+
+# External dependencies - Async
+tokio = { version = "1.43", features = ["full"] }
+async-trait = "0.1"
+
+# External dependencies - Collections
+hashbrown = "0.15"
+indexmap = "2.7"
+smallvec = "1.13"
+parking_lot = "0.12"
+
+# External dependencies - Image/Audio
+image = "0.25"
+rodio = "0.19"
+
+# External dependencies - Physics
+rapier3d = "0.22"
+
+# External dependencies - Scripting
+mlua = { version = "0.10", features = ["lua54", "vendored"] }
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
