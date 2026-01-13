@@ -1,0 +1,30 @@
+# Synarion Engine - Rust Formatting Configuration
+# See: https://rust-lang.github.io/rustfmt/
+
+# Line width
+max_width = 100
+comment_width = 100
+wrap_comments = true
+
+# Imports
+imports_granularity = "Module"
+group_imports = "StdExternalCrate"
+reorder_imports = true
+reorder_modules = true
+
+# Formatting
+edition = "2021"
+newline_style = "Auto"
+use_small_heuristics = "Default"
+
+# Functions
+fn_params_layout = "Tall"
+fn_single_line = false
+
+# Other
+format_code_in_doc_comments = true
+format_macro_matchers = true
+format_strings = false
+hex_literal_case = "Upper"
+use_field_init_shorthand = true
+use_try_shorthand = true
