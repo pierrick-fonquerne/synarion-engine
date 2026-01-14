@@ -1,1 +1,1 @@
-//! syn_streaming - TODO: Implement
+//! `syn_streaming` - TODO: Implement

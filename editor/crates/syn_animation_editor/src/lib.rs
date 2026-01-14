@@ -1,1 +1,1 @@
-//! syn_animation_editor - TODO: Implement
+//! `syn_animation_editor` - TODO: Implement

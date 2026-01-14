@@ -1,1 +1,1 @@
-//! syn_vegetation - TODO: Implement
+//! `syn_vegetation` - TODO: Implement

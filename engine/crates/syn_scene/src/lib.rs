@@ -1,1 +1,1 @@
-//! syn_scene - TODO: Implement
+//! `syn_scene` - TODO: Implement

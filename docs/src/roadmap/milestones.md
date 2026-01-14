@@ -1,7 +1,8 @@
 # Milestones
 
 ## M0: Bootstrap
-**Status: Complete**
+
+### Status: Complete
 
 - [x] Project structure
 - [x] 55 crates scaffolded
@@ -10,7 +11,8 @@
 - [x] Basic documentation
 
 ## M1: Hello Triangle
-**Status: Not Started**
+
+### Status: Not Started
 
 - [ ] `syn_core` - Core types
 - [ ] `syn_math` - Basic 3D math
@@ -19,7 +21,8 @@
 - [ ] First triangle rendered!
 
 ## M2: Textured Cube
-**Status: Not Started**
+
+### Status: Not Started
 
 - [ ] Texture loading
 - [ ] UV mapping
@@ -28,7 +31,8 @@
 - [ ] Basic materials
 
 ## M3: Lighting & PBR
-**Status: Not Started**
+
+### Status: Not Started
 
 - [ ] Phong lighting
 - [ ] PBR materials
@@ -37,7 +41,8 @@
 - [ ] Post-processing basics
 
 ## M4: ECS & Scene
-**Status: Not Started**
+
+### Status: Not Started
 
 - [ ] Entity Component System
 - [ ] Scene graph
@@ -46,7 +51,8 @@
 - [ ] Scene serialization
 
 ## M5: Model Loading
-**Status: Not Started**
+
+### Status: Not Started
 
 - [ ] glTF 2.0 import
 - [ ] Skeletal meshes
@@ -54,7 +60,8 @@
 - [ ] Asset hot-reloading
 
 ## M6: Physics
-**Status: Not Started**
+
+### Status: Not Started
 
 - [ ] Rapier integration
 - [ ] Rigid bodies
@@ -62,7 +69,8 @@
 - [ ] Raycasting
 
 ## M7: Audio
-**Status: Not Started**
+
+### Status: Not Started
 
 - [ ] Audio playback
 - [ ] 3D spatial audio
@@ -70,7 +78,8 @@
 - [ ] Music streaming
 
 ## M8: Basic Editor
-**Status: Not Started**
+
+### Status: Not Started
 
 - [ ] Editor window
 - [ ] Viewport
@@ -79,7 +88,8 @@
 - [ ] Asset browser
 
 ## M9: Networking
-**Status: Not Started**
+
+### Status: Not Started
 
 - [ ] Client/Server architecture
 - [ ] State replication
@@ -87,7 +97,8 @@
 - [ ] Basic multiplayer demo
 
 ## M10: Complete Demo
-**Status: Not Started**
+
+### Status: Not Started
 
 - [ ] All systems integrated
 - [ ] Sample game

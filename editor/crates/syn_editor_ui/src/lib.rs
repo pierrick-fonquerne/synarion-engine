@@ -1,1 +1,1 @@
-//! syn_editor_ui - TODO: Implement
+//! `syn_editor_ui` - TODO: Implement

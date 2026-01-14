@@ -1,1 +1,1 @@
-//! syn_vulkan - TODO: Implement
+//! `syn_vulkan` - TODO: Implement

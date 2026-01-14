@@ -1,1 +1,1 @@
-//! syn_import_blend - TODO: Implement
+//! `syn_import_blend` - TODO: Implement

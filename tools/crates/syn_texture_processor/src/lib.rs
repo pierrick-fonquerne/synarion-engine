@@ -1,1 +1,1 @@
-//! syn_texture_processor - TODO: Implement
+//! `syn_texture_processor` - TODO: Implement

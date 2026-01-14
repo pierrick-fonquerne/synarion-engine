@@ -1,1 +1,1 @@
-//! syn_quests - TODO: Implement
+//! `syn_quests` - TODO: Implement

@@ -1,1 +1,1 @@
-//! syn_gpu - TODO: Implement
+//! `syn_gpu` - TODO: Implement

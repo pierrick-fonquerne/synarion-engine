@@ -1,1 +1,1 @@
-//! syn_dialogue - TODO: Implement
+//! `syn_dialogue` - TODO: Implement

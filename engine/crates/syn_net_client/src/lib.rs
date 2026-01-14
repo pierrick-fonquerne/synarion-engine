@@ -1,1 +1,1 @@
-//! syn_net_client - TODO: Implement
+//! `syn_net_client` - TODO: Implement

@@ -1,1 +1,1 @@
-//! syn_import_gltf - TODO: Implement
+//! `syn_import_gltf` - TODO: Implement

@@ -1,1 +1,1 @@
-//! syn_ecs - TODO: Implement
+//! `syn_ecs` - TODO: Implement

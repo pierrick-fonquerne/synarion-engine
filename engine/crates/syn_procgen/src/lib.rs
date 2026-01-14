@@ -1,1 +1,1 @@
-//! syn_procgen - TODO: Implement
+//! `syn_procgen` - TODO: Implement

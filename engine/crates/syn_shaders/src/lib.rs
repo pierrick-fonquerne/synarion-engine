@@ -1,1 +1,1 @@
-//! syn_shaders - TODO: Implement
+//! `syn_shaders` - TODO: Implement

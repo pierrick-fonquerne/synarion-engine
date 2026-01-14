@@ -1,1 +1,1 @@
-//! syn_console - TODO: Implement
+//! `syn_console` - TODO: Implement

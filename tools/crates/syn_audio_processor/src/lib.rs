@@ -1,1 +1,1 @@
-//! syn_audio_processor - TODO: Implement
+//! `syn_audio_processor` - TODO: Implement

@@ -8,6 +8,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+
+- **syn_core**: `Handle<T>` - Type-safe generational handles for resource references
+- **syn_collections**: `SlotMap<T>` - Generational storage with O(1) insert/remove/get operations
+- **syn_collections**: `Arena<T>` - Bump allocator for bulk allocations
+- **syn_collections**: Re-exports `Handle<T>` from syn_core for convenience
+- Coding standards: rustfmt.toml, clippy pedantic, CI pipeline
+- Makefile with development commands (`make ci`, `make lint`, `make test`)
+- GitHub Actions CI (format, clippy, tests, docs)
+- Code style documentation (`docs/src/contributing/code-style.md`)
+- API documentation for `syn_core` and `syn_collections`
+
+### Changed
+
+- `rustfmt.toml` simplified to use only stable options
+- `Cargo.lock` now versioned for build reproducibility
+
+### Infrastructure
+
 - Initial project bootstrap with 55 crates
 - Engine crates: core, math, platform, vulkan, renderer, ecs, physics, audio, etc.
 - Editor crates: viewport, inspector, asset browser, material editor, etc.
@@ -19,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1] - 2025-01-13
 
 ### Added
+
 - Project structure and Cargo workspace
 - Empty crate scaffolding
 - Basic README and LICENSE (MIT)

@@ -1,1 +1,1 @@
-//! syn_shader_compiler - TODO: Implement
+//! `syn_shader_compiler` - TODO: Implement

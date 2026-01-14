@@ -4,7 +4,7 @@
 
 | Category | Crates | Status |
 |----------|--------|--------|
-| Engine Core | 4 | Not Started |
+| Engine Core | 4 | **In Progress** |
 | Platform | 4 | Not Started |
 | Rendering | 4 | Not Started |
 | Game Systems | 13 | Not Started |
@@ -14,14 +14,16 @@
 ## Engine Crates Status
 
 ### Foundations (Layer 0)
+
 | Crate | Status | Description |
 |-------|--------|-------------|
-| `syn_core` | Not Started | Core types, Handle, Id, Error |
+| `syn_core` | **In Progress** | Handle<T> implemented. Id, Error pending. |
 | `syn_math` | Not Started | 3D math, Vec3, Mat4, Transform |
-| `syn_collections` | Not Started | SlotMap, SparseSet, Arena |
+| `syn_collections` | **In Progress** | SlotMap, Arena implemented. SparseSet needs tests. |
 | `syn_memory` | Not Started | Custom allocators |
 
 ### Platform (Layer 1)
+
 | Crate | Status | Description |
 |-------|--------|-------------|
 | `syn_platform` | Not Started | Window, Events |
@@ -30,6 +32,7 @@
 | `syn_filesystem` | Not Started | Virtual file system |
 
 ### Rendering (Layer 2)
+
 | Crate | Status | Description |
 |-------|--------|-------------|
 | `syn_gpu` | Not Started | RHI abstraction |
@@ -38,6 +41,7 @@
 | `syn_renderer` | Not Started | High-level renderer |
 
 ### Game Systems (Layer 3)
+
 | Crate | Status | Description |
 |-------|--------|-------------|
 | `syn_ecs` | Not Started | Entity Component System |

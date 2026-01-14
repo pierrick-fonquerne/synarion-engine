@@ -3,5 +3,7 @@ name = "syn_collections"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
+description = "Specialized collections for Synarion Engine"
 
 [dependencies]
+syn_core = { path = "../syn_core" }

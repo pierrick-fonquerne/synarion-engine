@@ -1,1 +1,1 @@
-//! syn_hierarchy - TODO: Implement
+//! `syn_hierarchy` - TODO: Implement

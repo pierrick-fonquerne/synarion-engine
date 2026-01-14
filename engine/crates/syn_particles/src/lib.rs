@@ -1,1 +1,1 @@
-//! syn_particles - TODO: Implement
+//! `syn_particles` - TODO: Implement
