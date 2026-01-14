@@ -475,6 +475,9 @@ version = "0.1.0"
 [[package]]
 name = "syn_collections"
 version = "0.1.0"
+dependencies = [
+ "syn_core",
+]
 
 [[package]]
 name = "syn_console"
