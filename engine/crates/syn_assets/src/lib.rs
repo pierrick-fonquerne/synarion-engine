@@ -1,1 +1,1 @@
-//! syn_assets - TODO: Implement
+//! `syn_assets` - TODO: Implement

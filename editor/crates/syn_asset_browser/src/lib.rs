@@ -1,1 +1,1 @@
-//! syn_asset_browser - TODO: Implement
+//! `syn_asset_browser` - TODO: Implement

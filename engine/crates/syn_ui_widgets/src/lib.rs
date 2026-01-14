@@ -1,1 +1,1 @@
-//! syn_ui_widgets - TODO: Implement
+//! `syn_ui_widgets` - TODO: Implement

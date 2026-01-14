@@ -1,1 +1,1 @@
-//! syn_material_editor - TODO: Implement
+//! `syn_material_editor` - TODO: Implement

@@ -1,1 +1,1 @@
-//! syn_ai - TODO: Implement
+//! `syn_ai` - TODO: Implement

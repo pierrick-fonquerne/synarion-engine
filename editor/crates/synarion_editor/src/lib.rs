@@ -1,1 +1,1 @@
-//! synarion_editor - TODO: Implement
+//! `synarion_editor` - TODO: Implement

@@ -1,1 +1,1 @@
-//! syn_navigation - TODO: Implement
+//! `syn_navigation` - TODO: Implement

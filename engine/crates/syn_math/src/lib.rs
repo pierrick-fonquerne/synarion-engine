@@ -1,1 +1,1 @@
-//! syn_math - TODO: Implement
+//! `syn_math` - TODO: Implement

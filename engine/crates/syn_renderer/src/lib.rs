@@ -1,1 +1,1 @@
-//! syn_renderer - TODO: Implement
+//! `syn_renderer` - TODO: Implement

@@ -1,1 +1,1 @@
-//! syn_platform - TODO: Implement
+//! `syn_platform` - TODO: Implement

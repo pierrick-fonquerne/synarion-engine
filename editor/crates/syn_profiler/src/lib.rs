@@ -1,1 +1,1 @@
-//! syn_profiler - TODO: Implement
+//! `syn_profiler` - TODO: Implement

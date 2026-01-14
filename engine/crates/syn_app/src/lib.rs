@@ -1,1 +1,1 @@
-//! syn_app - TODO: Implement
+//! `syn_app` - TODO: Implement

@@ -1,1 +1,1 @@
-//! syn_input - TODO: Implement
+//! `syn_input` - TODO: Implement

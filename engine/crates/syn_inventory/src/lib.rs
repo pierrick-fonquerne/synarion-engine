@@ -1,1 +1,1 @@
-//! syn_inventory - TODO: Implement
+//! `syn_inventory` - TODO: Implement

@@ -1,1 +1,1 @@
-//! syn_memory - TODO: Implement
+//! `syn_memory` - TODO: Implement

@@ -1,1 +1,1 @@
-//! syn_inspector - TODO: Implement
+//! `syn_inspector` - TODO: Implement

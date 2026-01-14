@@ -49,7 +49,9 @@ impl<T> SparseSet<T> {
     /// Gets a reference to the value at the given index.
     pub fn get(&self, index: u32) -> Option<&T> {
         let idx = index as usize;
-        self.sparse.get(idx)?.map(|dense_idx| &self.dense[dense_idx].1)
+        self.sparse
+            .get(idx)?
+            .map(|dense_idx| &self.dense[dense_idx].1)
     }
 
     /// Gets a mutable reference to the value at the given index.

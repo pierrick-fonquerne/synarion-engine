@@ -1,1 +1,1 @@
-//! syn_physics - TODO: Implement
+//! `syn_physics` - TODO: Implement

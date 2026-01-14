@@ -1,1 +1,1 @@
-//! syn_net_core - TODO: Implement
+//! `syn_net_core` - TODO: Implement

@@ -1,1 +1,1 @@
-//! syn_cli - TODO: Implement
+//! `syn_cli` - TODO: Implement
